@@ -220,7 +220,7 @@
     .slink--white { color: rgba(255,255,255,.9); }
 
     /* ─── ABOUT ──────────────────────────────────────────────────── */
-    .about-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+    .about-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
     @media (max-width: 760px) {
       .about-wrap { grid-template-columns: 1fr; }
       .portrait-frame { max-width: 340px; margin: 0 auto; }
@@ -571,13 +571,11 @@
   <section class="section" id="onas">
     <div class="container">
       <div class="about-wrap fade-up">
-        <div>
-          <div class="portrait-frame">
-            <img
-              src="assets/photos/portret.jpg"
-              alt="Viki Feňarová — majiteľka salónu" />
-            <div class="portrait-deco"></div>
-          </div>
+        <div class="portrait-frame">
+          <img
+            src="assets/photos/portret.jpg"
+            alt="Viki Feňarová — majiteľka salónu" />
+          <div class="portrait-deco"></div>
         </div>
         <div>
           <span class="eyebrow">O nás</span>
@@ -645,7 +643,8 @@ Aj vybavenie salónov sa neustále prispôsobuje potrebám práce v pedikúre. P
     <div class="container">
       <div class="section-header">
         <span class="eyebrow eyebrow--green">Príďte za nami</span>
-        <h2>Kde <em>zaparkovať?</em></h2>
+        <h2>Ako sa ku mne <em>dostavíte?</em></h2>
+        <a href="https://www.google.com/maps/dir//Pedik%C3%BAra,%20manik%C3%BAra%20u%20Viki" class="btn btn-green" style="margin-top:1.25rem;">🧭 Navigovať</a>
       </div>
       <div class="parking-grid">
         <div class="parking-cards">
@@ -659,7 +658,7 @@ Aj vybavenie salónov sa neustále prispôsobuje potrebám práce v pedikúre. P
             </div>
             <div>
               <h4>Parkovanie v okolí</h4>
-              <p>Platené parkovanie na <strong>Šoltésovej ulici</strong> (zóny B a BN). Bezplatné parkovanie pred <strong>Lidlom v OC Astória</strong>.</p>
+              <p>Platené parkovanie v <strong>zónach B a BN</strong>.</p>
             </div>
           </div>
 
@@ -678,14 +677,13 @@ Aj vybavenie salónov sa neustále prispôsobuje potrebám práce v pedikúre. P
 
         <div class="parking-promo fade-up">
           <div class="big">🚗</div>
-          <h3>Príďte bez obáv!</h3>
+          <h3>Autom? Príďte bez obáv!</h3>
           <p>
-            Naše štúdio sa nachádza na ulici <strong>Milosrdenstva 4</strong> v Košiciach.
-            Parkovanie v okolí je dostupné a bezplatné. V prípade akýchkoľvek otázok
-            nás neváhajte kontaktovať — radi vám pomôžeme nájsť cestu k nám.
+            Môj salón sa nachádza na ulici <strong>Milosrdenstva 4</strong> v Košiciach. V prípade akýchkoľvek otázok
+            ma neváhajte kontaktovať, rada Vám pomôžem.
           </p>
           <br/>
-          <a href="https://www.google.com/maps/dir//Pedik%C3%BAra,%20manik%C3%BAra%20u%20Viki" class="btn btn-white parking-promo-cta">🧭 Navigovať</a>
+          <a href="https://gisplan.kosice.sk/mapa/parkovanie/?c=-262846.7:-1240544.65&z=7&lb=osmllg&ly=automat-k,automat-mk,ul,park-aa,park-ab,park-bn,park-n,park-b,park-ra,park-ast,park-sar,park-vc,park-drl,park-z&lbo=1&lyo=" class="btn btn-white parking-promo-cta" target="_blank" rel="noopener">🅿️ Mapa parkovania</a>
         </div>
 
       </div>
@@ -696,7 +694,7 @@ Aj vybavenie salónov sa neustále prispôsobuje potrebám práce v pedikúre. P
   <section class="cta-band">
     <span class="eyebrow">Rezervácia termínu</span>
     <h2>Zarezervujte si termín<br/><em>ešte dnes</em></h2>
-    <p>Kontaktujte nás telefonicky alebo e-mailom. Tešíme sa na vás!</p>
+    <p>Kontaktujte ma telefonicky alebo e-mailom. Tešíme sa na vás!</p>
     <div class="cta-actions">
       <a href="tel:+421903669855" class="btn btn-white"><img src="assets/icons/phone.png" alt="" class="btn-phone-icon" /> 0903 669 855</a>
       <a href="mailto:viki@uviki.sk" class="btn btn-outline-white">✉ viki@uviki.sk</a>
@@ -744,7 +742,7 @@ Aj vybavenie salónov sa neustále prispôsobuje potrebám práce v pedikúre. P
             </div>
             <div>
               <span class="messenger-label">Facebook Messenger</span>
-              <span class="messenger-handle">Napíšte nám správu</span>
+              <span class="messenger-handle">Napíšte mi správu</span>
             </div>
           </a>
 
@@ -794,9 +792,8 @@ Aj vybavenie salónov sa neustále prispôsobuje potrebám práce v pedikúre. P
               </div>
               <div>
                 <strong>Otváracie hodiny</strong>
-                <span>Pondelok – Piatok: 9:00 – 18:00</span>
-                <span>Sobota: 9:00 – 14:00</span>
-                <span>Nedeľa: zatvorené</span>
+                <span>Pondelok - Piatok: 9:00 – 17:00</span>
+                <span>Sobota - Nedeľa: zatvorené</span>
               </div>
             </div>
           </div>
